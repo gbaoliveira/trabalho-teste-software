@@ -1,0 +1,71 @@
+html, body{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+}
+
+.demo-wrap {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .demo-bg {
+    opacity: 0.7;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+  }
+  
+  .demo-content {
+    position: relative;
+  }
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding: 1rem;
+    background-color: black;
+    margin-bottom: 150px;
+}
+
+ul li{
+    font-size: 30px;
+    color: white;
+}
+
+.container{
+    max-width: 400px;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: black;
+}
+
+.button{
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+    background-color:aquamarine;
+}
+
+button:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.email, .senha{
+    width: 90%;
+    height: 25px;
+    margin-left: 10px;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
