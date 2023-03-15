@@ -9,7 +9,7 @@ html, body{
 
 @keyframes transition {
     from {
-      opacity: 0.
+      opacity: 0.8
     }
     to {
       opacity: 1;
